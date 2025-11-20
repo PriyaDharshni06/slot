@@ -28,8 +28,164 @@ Execute the program using runserver command.
 
 ## PROGRAM
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Time Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .lunch {
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<center>
+            <img src="logo.png" width="500">
+        </center>
 
+  <h2>SLOT TIME TABLE - PRIYA DHARSHNI(212224100045)</h2>
+
+  <!-- Timetable -->
+  <table>
+    <tr>
+      <th>Day/Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+    <tr>
+      <td>8-10</td>
+      <td>BEEE</td>
+      <td>MATHS</td>
+      <td>SIOT</td>
+      <td>FREE_SLOT</td>
+      <td>QA-I</td>
+      <td>IOT</td>
+    </tr>
+    <tr>
+      <td>10-12</td>
+      <td>FREE_SLOT</td>
+      <td>HVPE</td>
+      <td>FWAD</td>
+      <td>SMCO</td>
+      <td>C</td>
+      <td>SMOC</td>
+    </tr>
+    <tr>
+      <td>12-1</td>
+      <td colspan="6" class="lunch">L U N C H</td>
+    </tr>
+    <tr>
+      <td>1-3</td>
+      <td>FWAD</td>
+      <td>BEEE</td>
+      <td>MENTOR</td>
+      <td>AI</td>
+      <td></td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>3-5</td>
+      <td>AI</td>
+      <td></td>
+      <td>IOT</td>
+      <td></td>
+      <td>MATHS</td>
+      <td></td>
+    </tr>
+  </table>
+
+  <!-- Subject Codes -->
+  <table>
+    <tr>
+      <th>s. No.</th>
+      <th>Subject Code</th>
+      <th>Subject Name</th>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>19AI414</td>
+      <td>Fundamentals of Web Application Development (FWAD)</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>19MS415</td>
+      <td>Stock Market and Company Operations (SMOC)</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>19AI301C</td>
+      <td>C Programming (C)</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>19AI405</td>
+      <td>Fundamentals of Artificial Intelligence (AI)</td>
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td>19AM508</td>
+      <td>Introduction to IOT (IOT)</td>
+    </tr>
+    <tr>
+      <td>6.</td>
+      <td>19CS422</td>
+      <td>Security for IOT Systems (SIOT)</td>
+    </tr>
+    <tr>
+      <td>7.</td>
+      <td>19EE305</td>
+      <td>Basic Electrical, Electronics and Measurement Engineering (BEEE)</td>
+    </tr>
+    <tr>
+      <td>8.</td>
+      <td>19EY701</td>
+      <td>Quantitative Ability (QA-I)</td>
+    </tr>
+    <tr>
+      <td>9.</td>
+      <td>19HS301</td>
+      <td>Human Values and Professional Ethics (HVPE)</td>
+    </tr>
+    <tr>
+      <td>10.</td>
+      <td>19MA222</td>
+      <td>Probability and Queueing Models (MATHS)</td>
+    </tr>
+  </table>
+
+</body>
+</html>
+```
 ## OUTPUT
+<img width="1916" height="1133" alt="Screenshot 2025-11-20 113153" src="https://github.com/user-attachments/assets/9faf6214-08bd-4028-b9d9-0c6fe55c0886" />
 
 
 ## RESULT
